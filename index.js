@@ -38,4 +38,4 @@ async function invokeAction({ action, id, name, email, phone }) {
 
 invokeAction(argv)
   .then(data => console.table(data))
-  .catch(error => console.table(error));
+  .catch(error => console.log(error));
